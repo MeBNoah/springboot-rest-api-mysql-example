@@ -1,8 +1,8 @@
 package app.repository;
 
-import app.model.Book;
+import app.model.User;
 import org.springframework.data.repository.CrudRepository;
 
-public interface BookRepository extends CrudRepository<Book, Long> {
+public interface BookRepository extends CrudRepository<User, Long> {
 
 }
