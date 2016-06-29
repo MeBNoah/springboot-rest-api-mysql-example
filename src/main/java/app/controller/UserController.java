@@ -1,7 +1,7 @@
 package app.controller;
 
 import app.model.User;
-import app.repository.BookRepository;
+import app.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,7 +15,7 @@ import java.util.Map;
 public class UserController {
 
   @Autowired
-  private BookRepository userRepository;
+  private UserRepository userRepository;
   
   @RequestMapping(method = RequestMethod.POST)
   public Map<String, Object> createUser(@RequestBody Map<String, Object> userMap){
