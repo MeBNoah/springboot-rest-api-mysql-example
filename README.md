@@ -2,8 +2,8 @@
 Sample showing REST API implementation using Spring Boot and MySql as the backend
 
 ## Run 
-* `docker pull mysql`
-* `docker run -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql`
+* `docker pull postgres`
+* `docker run -p 5432:5432 -e POSTGRES_PASSWORD=root -d postgres`
 * create a database called users
 * `mvn clean spring-boot:run`
 
